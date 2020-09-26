@@ -1,0 +1,1 @@
+python main.py skating2 RGB --arch resnet50_I3D --num_segments 32 --batch-size 24 --iter_size 2 --dropout 0.5 --lr 0.015 --warmup 10 --epochs 200  --gd 20  -j 16 --eval-freq 1 --print-freq 200 --run_iter 1
